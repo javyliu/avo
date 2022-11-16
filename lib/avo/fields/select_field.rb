@@ -56,7 +56,7 @@ module Avo
         elsif display_value
           value
         else
-          options.invert.stringify_keys[value]
+          options.invert[value]
         end
       end
     end
